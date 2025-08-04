@@ -52,4 +52,4 @@ temp/
 # Large audio files (exclude WAV, allow MP3 for web)
 *.wav
 *.m4a
-*.flac 
+*.flac
