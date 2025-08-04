@@ -36,6 +36,11 @@ A minimalist, modern website featuring an animated ADESA logo with interactive a
    - Add your GoDaddy domain
    - Update GoDaddy DNS records as instructed
 
+4. **Upload Audio File**:
+   - In Vercel dashboard, go to your project
+   - Navigate to "Settings" → "Functions" → "Upload Files"
+   - Upload `Interdimensional Fiume(Ambient Fiume).mp3` to the public folder
+
 ## 📁 Project Structure
 
 ```
@@ -46,7 +51,7 @@ Adesa/
 ├── Graphik-Regular.ttf # Custom font
 ├── intodotmatrix.ttf   # Dot matrix font
 ├── README.md           # This file
-└── Interdimensional Fiume(Ambient Fiume).mp3 # Background audio
+└── Interdimensional Fiume(Ambient Fiume).mp3 # Background audio (upload separately to Vercel)
 ```
 
 ## 🎵 Audio Controls
