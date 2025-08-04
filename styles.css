@@ -195,7 +195,7 @@ body {
     .top-left,
     .top-right {
         max-width: 45vw;
-        font-size: 0.7rem;
+        font-size: 1.7vh;
     }
     
     .adesa-logo {
@@ -208,7 +208,8 @@ body {
     
     .bottom-left,
     .bottom-right {
-        font-size: 0.7rem;
+        font-size: 1.7vh;
+        bottom: 12vh;
     }
 }
 
