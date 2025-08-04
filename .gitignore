@@ -49,8 +49,7 @@ temp/
 .env.test.local
 .env.production.local
 
-# Large audio files (exclude all audio files from Git)
+# Large audio files (exclude WAV, allow MP3 for web)
 *.wav
-*.mp3
 *.m4a
 *.flac 

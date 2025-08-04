@@ -33,13 +33,13 @@ A minimalist, modern website featuring an animated ADESA logo with interactive a
 
 3. **Custom Domain**:
    - In Vercel dashboard, go to "Settings" → "Domains"
-   - Add your GoDaddy domain
-   - Update GoDaddy DNS records as instructed
+   - Add your GoDaddy domain (e.g., odessa.world)
+   - Change nameservers to ns1.vercel-dns.com and ns2.vercel-dns.com
+   - Wait 2-4 hours for DNS propagation
 
 4. **Upload Audio File**:
-   - In Vercel dashboard, go to your project
-   - Navigate to "Settings" → "Functions" → "Upload Files"
-   - Upload `Interdimensional Fiume(Ambient Fiume).mp3` to the public folder
+   - Audio file is included in the repository and automatically deployed
+   - No manual upload needed
 
 ## 📁 Project Structure
 
@@ -51,7 +51,7 @@ Adesa/
 ├── Graphik-Regular.ttf # Custom font
 ├── intodotmatrix.ttf   # Dot matrix font
 ├── README.md           # This file
-└── Interdimensional Fiume(Ambient Fiume).mp3 # Background audio (upload separately to Vercel)
+└── Interdimensional Fiume(Ambient Fiume).mp3 # Background audio (included in deployment)
 ```
 
 ## 🎵 Audio Controls
@@ -88,7 +88,7 @@ Adesa/
 
 ## 🌐 Live Demo
 
-Visit: [Your Vercel URL here]
+Visit: [odessa.world](https://odessa.world) (DNS propagation in progress)
 
 ## 📄 License
 
