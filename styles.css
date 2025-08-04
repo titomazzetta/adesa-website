@@ -49,7 +49,7 @@ body {
     top: 4vh;
     left: 4vw;
     max-width: 30vw;
-    font-size: 1rem;
+    font-size: 1.44vh;
     font-family: 'Graphik', Arial, sans-serif;
     font-weight: normal;
     letter-spacing: 0.01em;
@@ -61,7 +61,7 @@ body {
     right: 4vw;
     text-align: right;
     max-width: 30vw;
-    font-size: 1rem;
+    font-size: 1.44vh;
     font-family: 'Graphik', Arial, sans-serif;
     font-weight: normal;
     letter-spacing: 0.01em;
@@ -70,7 +70,7 @@ body {
 /* Center - ADESA Logo */
 .center {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -128,7 +128,7 @@ body {
 .bottom-left {
     bottom: 4vh;
     left: 4vw;
-    font-size: 1rem;
+    font-size: 1.44vh;
     font-family: 'Graphik', Arial, sans-serif;
     font-weight: normal;
     letter-spacing: 0.01em;
@@ -151,7 +151,7 @@ body {
     bottom: 4vh;
     right: 4vw;
     text-align: right;
-    font-size: 1rem;
+    font-size: 1.44vh;
     font-family: 'Graphik', Arial, sans-serif;
     font-weight: normal;
     letter-spacing: 0.01em;
@@ -174,7 +174,7 @@ body {
     .top-left,
     .top-right {
         max-width: 40vw;
-        font-size: 0.8rem;
+        font-size: 1.44vh;
     }
     
     .adesa-logo {
@@ -187,7 +187,11 @@ body {
     
     .bottom-left,
     .bottom-right {
-        font-size: 0.8rem;
+        font-size: 1.44vh;
+    }
+    
+    .center {
+        top: 50%;
     }
 }
 
@@ -211,6 +215,10 @@ body {
         font-size: 1.7vh;
         bottom: 12vh;
     }
+    
+    .center {
+        top: 46%;
+    }
 }
 
 /* Landscape orientation adjustments */
@@ -229,6 +237,17 @@ body {
     
     .letter {
         font-size: clamp(1.8rem, 10vh, 4.5rem);
+    }
+}
+
+/* Mobile-only line break */
+.mobile-break {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .mobile-break {
+        display: inline;
     }
 }
 
