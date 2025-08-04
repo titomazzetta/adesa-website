@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Into Dot Matrix';
-    src: url('./intodotmatrix.ttf') format('truetype');
+    src: url('./media/intodotmatrix.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: url('./Graphik-Regular.ttf') format('truetype');
+    src: url('./media/Graphik-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

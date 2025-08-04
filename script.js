@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     
     // Set audio source
-    setAudioSource("Interdimensional Fiume(Ambient Fiume).mp3");
+    setAudioSource("media/Interdimensional Fiume(Ambient Fiume).mp3");
     
     // Instructions for music controls
     console.log('🎵 Background music ready:');

@@ -48,10 +48,12 @@ Adesa/
 ├── index.html          # Main HTML file
 ├── styles.css          # Responsive CSS with linear scaling
 ├── script.js           # Audio controls and interactions
-├── Graphik-Regular.ttf # Custom font
-├── intodotmatrix.ttf   # Dot matrix font
-├── README.md           # This file
-└── Interdimensional Fiume(Ambient Fiume).mp3 # Background audio (included in deployment)
+├── media/              # Media assets folder
+│   ├── Graphik-Regular.ttf # Custom font
+│   ├── intodotmatrix.ttf   # Dot matrix font
+│   ├── favicon.svg         # Site favicon
+│   └── Interdimensional Fiume(Ambient Fiume).mp3 # Background audio
+└── README.md           # This file
 ```
 
 ## 🎵 Audio Controls
