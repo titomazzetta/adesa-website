@@ -157,6 +157,18 @@ body {
     letter-spacing: 0.01em;
 }
 
+.bottom-right a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bottom-right a:hover {
+    transform: scale(1.1);
+}
+
 /* Individual styles are now defined per element for better control */
 
 /* Responsive design for smaller screens */
