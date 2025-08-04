@@ -165,9 +165,7 @@ body {
     cursor: pointer;
 }
 
-.bottom-right a:hover {
-    transform: scale(1.1);
-}
+
 
 /* Individual styles are now defined per element for better control */
 
